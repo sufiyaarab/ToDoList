@@ -1,0 +1,138 @@
+
+.container {
+    max-height: 400px; 
+    overflow-y: auto; /* Add vertical scroll when content overflows */
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#submit{
+    font-style: oblique;
+    color: grey;
+    border: black;
+    outline-style: ridge;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.button:hover {
+    background-color: paleturquoise;
+    color:white;
+}
+
+#new-task-input{
+color:grey;
+width:200px;
+cursor: pointer;
+
+}
+
+h1 {
+    font-style: oblique;
+    outline-style: groove;
+    outline-width: 1rem;
+    outline-color: cadetblue;
+    color:cadetblue;
+    border-style: ridge;
+
+}
+input[type="date"] {
+    border: none;
+    outline: none;
+    padding: 10px 12px; 
+    background: rgb(210, 233, 210);
+    color: grey;
+    font-size: 14px; 
+    cursor: pointer;
+    border-radius: 40px;
+    margin-top: -50px;
+    outline-style: ridge;
+}
+
+.box {
+    position: relative;
+    width: 450px;
+    height: 550px;
+    border-radius: 35px;
+    padding: 30px 50px;
+    background: cadetblue;
+    box-shadow: 25 px 25 px 75 px black;
+    max-height: 400px; 
+    overflow-y: auto; 
+    
+}
+body{
+    background-image: linear-gradient(rgb(210, 233, 210),cadetblue);
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.task {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    outline-style: groove;
+    outline-color: cadetblue;
+    margin: 5px 0;
+    padding: 10px;
+    background-image: linear-gradient(rgb(210, 233, 210),cadetblue);
+  }
+  
+  .task .content {
+    flex-grow: 1;
+  }
+  
+.delete-button {
+    margin-right: 10px;
+    cursor: pointer;
+    color: red;
+    font-weight: strong;
+    font-style: oblique;
+    margin: 5px 0;
+    padding: 2px;
+    border-style: groove;
+    border-color: red;
+  }
+
+#sort-button {
+    background-color:rgb(210, 233, 210); 
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px; 
+    cursor: pointer;
+    font-style: italic;
+}
+
+#sort-button:hover {
+    background-color: #45a049; 
+}
+
+.completed {
+        background-color: palegreen; 
+        text-decoration: line-through; 
+}
+  
+.complete-button{
+    margin-right: 10px;
+    cursor: pointer;
+    color: green;
+    font-weight: strong;
+    font-style: oblique;
+    margin: 5px 0;
+    padding: 2px;
+    border-style: groove;
+    border-color: lightgreen;
+}
